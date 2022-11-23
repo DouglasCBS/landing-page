@@ -18,15 +18,22 @@ header {
 
 .header-link {
     display: flex;
-    gap: 16px
+    gap: 24px
 }
 
 .body {
     flex: 1;
 }
 
+header,
 .first-part {
     background-color: #1F2937;
+}
+
+.first-part {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
 }
 
 .header div {
@@ -49,4 +56,8 @@ header {
 img {
     color: #F9FAF8;
     background-color: #969696;
+}
+
+.item {
+    display: flex;
 }
