@@ -14,11 +14,12 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    padding: 24px 100px;
 }
 
 .header-link {
     display: flex;
-    gap: 24px
+    gap: 24px;
 }
 
 .body {
@@ -33,7 +34,7 @@ header,
 .first-part {
     display: flex;
     flex-direction: column;
-    padding: 48px;
+    padding: 100px;
 }
 
 .header div {
@@ -56,8 +57,21 @@ header,
 img {
     color: #F9FAF8;
     background-color: #969696;
+    height: 300px;
+    width: 600px;
 }
 
 .item {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-one {
+    max-width: 600px;
+}
+
+.first-part button {
+    background-color: #3882F6;
+    padding: 3px 18px;
 }
