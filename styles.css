@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
     text-decoration: none;
     list-style: none;
 }
@@ -41,6 +42,7 @@ footer,
 .header div {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 700;
 }
 
 .item h1 {
@@ -74,6 +76,10 @@ img {
 
 .first-part button {
     background-color: #3882F6;
-    padding: 3px 18px;
-    border-radius: 25px;
+    color: #F9FAF8;
+    padding: 8px 24px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: 700;
 }
