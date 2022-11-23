@@ -4,6 +4,7 @@
     border: 0;
     text-decoration: none;
     list-style: none;
+    font-family: Roboto;
 }
 
 body {
@@ -82,4 +83,16 @@ img {
     font-size: 18px;
     margin-top: 8px;
     font-weight: 700;
+}
+
+.second-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-part h1 {
+    font-weight: 800;
+    font-size: 36px;
+    color: #1F2937;
 }
