@@ -134,6 +134,7 @@ img {
     max-width: 900px;
     display: flex;
     flex-direction: column;
+    padding: 50px;
 }
 
 .third-part-container div {
