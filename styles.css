@@ -4,7 +4,7 @@
     border: 0;
     text-decoration: none;
     list-style: none;
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -175,4 +175,12 @@ img {
     background-color: #3882F6;
     border: 2px solid #F9FAF8;
     font-weight: 700;
+}
+
+footer {
+    display: flex;
+    padding: 24px 0;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
 }
