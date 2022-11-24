@@ -131,7 +131,7 @@ img {
 }
 
 .third-part-container {
-    width: 900px;
+    max-width: 900px;
     display: flex;
     flex-direction: column;
 }
@@ -144,4 +144,8 @@ img {
 .third-part-container p {
     font-size: 36px;
     color: #1F2937;
+}
+
+.fourth-part {
+    height: 300px;
 }
