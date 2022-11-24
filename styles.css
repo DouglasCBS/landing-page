@@ -120,3 +120,28 @@ img {
     max-width: 150px;
     gap: 8px;
 }
+
+.third-part {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-part-container {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-part-container div {
+    align-self: flex-end;
+    font-weight: 700;
+}
+
+.third-part-container p {
+    font-size: 36px;
+    color: #1F2937;
+}
